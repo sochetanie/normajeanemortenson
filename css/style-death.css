@@ -1,0 +1,82 @@
+.content {
+    background-image: url(../images/monroe.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: white;
+    padding: 10px;
+    width: 940px;
+    margin: auto;
+    
+}
+
+
+.content p::first-letter {
+    font-size: 300%;
+    color: red;  
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    line-height: 1.0; 
+}
+
+.content p {
+    font-family: 'lORA', serif;
+    margin: 0 auto;
+    text-align: justify;
+    line-height: 2.0;  
+    
+}
+h1 {
+    margin: 0 auto;
+    width: 960px;
+    text-align:center;
+    text-decoration:underline;
+    font-weight: bolder;
+    
+}
+
+body {
+    background-image: url(../images/roses-wall.jpg);
+    background-size:contain;
+    background-attachment: fixed;
+     
+    
+}
+
+.container {
+    width: 960px;
+    margin: auto;
+}
+
+
+
+.menubar ul {
+    display: table;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.menubar ul li {
+    display: table-cell;
+    width: 20%;
+    text-align: center;
+    vertical-align: top;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.menubar a {
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+    
+}
+
+.menubar a:hover {
+    color:crimson;
+    font-size: 35px;
+    color: white;
+    
+}
+
+

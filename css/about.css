@@ -1,0 +1,76 @@
+* {margin: 0px;
+    padding: 0px;}
+
+body {background-color: black;}
+
+.container {width: 960px;
+    text-align: center;
+    margin: auto;
+    background-color: rgba(255,255,255,0);}
+
+#banner {width: 960px;
+    background-image: url("../images/window960x480.jpg");
+    background-position: center;
+    height: 476px;}
+
+#banner p {font-family: 'Dancing Script', cursive;
+    text-align: center;
+    line-height: 35px;
+    font-size: 30px;
+    padding-top: 190px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;}
+
+.sidebar {clear: left;
+    float: left;
+    width: 340px;
+    padding: 10px;}
+
+.sidebar p img {float: left;
+                margin-right: 10px;
+                padding: 10px;}
+
+.content {width: 580px;
+        float: left;
+        padding: 5px;}
+
+.content h2 {float: right;
+            color: white;
+            font-family: Tahoma, Verdana; 
+            font-size: 18px;
+            padding: 10px;}
+
+.content p {float: left;
+            color: white;
+            font-family: Tahoma, Verdana; 
+            font-size: 14px;
+            text-align: left;}
+
+#dead {background-image: url("../images/marilyn-1926-1962.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-top: 5px;
+        background-color: rgba(255,255,255,0);
+        width: 580px;
+        height: 275px;
+        float: left;}
+
+.menubar {position:absolute;}
+    
+.menubar ul {display: table;
+        width: 100%;
+        margin-top: 8px;
+        background-color: rgba(255,255,255,0);
+        text-align: center;
+        padding: 0px;}
+
+.menubar li {display: table-cell;
+            width: 320px;}
+
+.menubar a {text-decoration: none;
+            color: white;
+            font-size: 25px;}
+
+.menubar a:hover {font-size: 32px;
+                color: white;}
